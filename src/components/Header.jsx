@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from '../assets/wesbite_logo.png'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -8,10 +9,8 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-400 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">A</span>
-            </div>
-            <span className="text-2xl font-bold text-gray-900 dark:text-white">Airella</span>
+            <img src={logo} alt="Airella Tech Logo" className="w-12 h-auto rounded-lg" />
+            <span className="text-2xl font-bold text-gray-900 dark:text-white">Airella Tech</span>
           </div>
 
           {/* Mobile menu button */}

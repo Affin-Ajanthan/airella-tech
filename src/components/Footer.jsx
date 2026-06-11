@@ -1,3 +1,5 @@
+import logo from '../assets/wesbite_logo.png'
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -8,9 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-400 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">A</span>
-              </div>
+              <img src={logo} alt="Airella Tech Logo" className="w-10 h-auto rounded-lg" />
               <span className="text-xl font-bold text-white">Airella</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">Transforming businesses through innovative technology solutions.</p>
