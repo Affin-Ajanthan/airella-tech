@@ -8,7 +8,7 @@ export default function Hero() {
               Transform Your Business with <span className="text-blue-600">Airella Tech</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-              Airella Tech builds software, AI, ML and cloud solutions \u2014 custom web and mobile applications, intelligent systems, and modern designs that drive growth and success.
+              Airella Tech builds software, AI, ML and cloud solutions — custom web and mobile applications, intelligent systems, and modern designs that drive growth and success.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#contact" className="px-6 sm:px-8 py-3 sm:py-4 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-lg hover:bg-blue-50 dark:hover:bg-slate-800 transition text-base sm:text-lg font-semibold text-center">
