@@ -11,10 +11,10 @@ export default function About() {
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">About Airella Tech</h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-              Founded in 2026, Airella Tech has been at the forefront of digital innovation. We specialize in delivering transformative technology solutions that empower businesses to achieve their goals.
+              Airella Tech is a software, AI, ML and cloud solutions company at the forefront of digital innovation. We specialize in building custom applications, intelligent machine-learning systems, scalable cloud infrastructure, and modern designs that empower businesses to achieve their goals.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-              Our team of experienced developers, designers, and strategists work collaboratively with clients to create solutions that are not just technically sound, but also aligned with business objectives.
+              Our team of experienced software engineers, AI/ML specialists, cloud architects, and designers work collaboratively with clients to create solutions that are not just technically sound, but also aligned with business objectives.
             </p>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
