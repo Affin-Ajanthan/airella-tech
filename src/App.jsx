@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Services from './components/Services'
@@ -9,7 +7,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="w-full min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+    <div className="w-full min-h-screen bg-paper dark:bg-ink-deep">
       <Header />
       <main className="w-full">
         <Hero />
